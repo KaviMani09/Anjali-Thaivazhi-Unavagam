@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block admin interface paths from being indexed
+Disallow: /admin
+Disallow: /admin/
+Disallow: /admin/panel
+
+Sitemap: /sitemap.xml
+
