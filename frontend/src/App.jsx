@@ -9,7 +9,8 @@ const Menu = lazy(() => import('./pages/Menu.jsx'))
 const Booking = lazy(() => import('./pages/Booking.jsx'))
 const Catering = lazy(() => import('./pages/Catering.jsx'))
 const Admin = lazy(() => import('./pages/Admin.jsx'))
-const Pay = lazy(() => import('./pages/Pay.jsx'))
+// Linux (Vercel) build is case-sensitive; file is `pay.jsx`
+const Pay = lazy(() => import('./pages/pay.jsx'))
 
 function ProtectedRoute({ children }) {
   const location = useLocation()
