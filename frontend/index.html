@@ -18,7 +18,8 @@
       content="Anjali Thaivazhi Unavagam, Tamil restaurant, South Indian food, Thirukovilur restaurant, catering, table booking, veg restaurant, non-veg restaurant"
     />
     <meta name="theme-color" content="#991b1b" />
-    <link rel="canonical" href="/" />
+    <!-- Use an absolute URL to avoid Vite treating "/" as a local file path during build -->
+    <link rel="canonical" href="https://example.com/" />
     <!-- Open Graph -->
     <meta property="og:type" content="restaurant" />
     <meta
@@ -29,8 +30,8 @@
       property="og:description"
       content="Traditional South Indian Tamil restaurant in Thapovanam, Tamil Nadu — dine-in, takeaway, catering, and table booking."
     />
-    <meta property="og:url" content="/" />
-    <meta property="og:image" content="/images/hotel-front.jpg" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="/vite.svg" />
     <meta property="og:locale" content="en_IN" />
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -42,7 +43,7 @@
       name="twitter:description"
       content="Traditional South Indian Tamil restaurant in Thapovanam, Tamil Nadu — dine-in, takeaway, catering, and table booking."
     />
-    <meta name="twitter:image" content="/images/hotel-front.jpg" />
+    <meta name="twitter:image" content="/vite.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -55,7 +56,7 @@
         "@type": "Restaurant",
         "name": "Anjali Thaivazhi Unavagam",
         "description": "Traditional South Indian Tamil restaurant for dine-in, takeaway, catering, and table booking.",
-        "image": "/images/hotel-front.jpg",
+        "image": "https://example.com/vite.svg",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Thirukovilur Bypass Rd, Thapovanam",
@@ -66,7 +67,7 @@
         },
         "telephone": "+91-9585833661",
         "servesCuisine": ["South Indian", "Tamil"],
-        "url": "/",
+        "url": "https://example.com/",
         "priceRange": "₹₹",
         "openingHoursSpecification": [
           {
