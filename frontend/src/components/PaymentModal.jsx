@@ -134,8 +134,8 @@ export default function PaymentModal({ open, onClose }) {
   }
 
   return (
-    <div className="no-print fixed inset-0 z-[60] grid place-items-center bg-black/50 p-4">
-      <div className="w-full max-w-2xl rounded-2xl bg-white shadow-2xl border border-amber-100 overflow-hidden">
+    <div className="no-print fixed inset-0 z-[60] bg-black/50 p-4 overflow-y-auto">
+      <div className="mx-auto my-2 md:my-6 w-full max-w-2xl rounded-2xl bg-white shadow-2xl border border-amber-100 overflow-hidden max-h-[calc(100dvh-1rem)] md:max-h-[calc(100dvh-3rem)] flex flex-col">
         <div className="px-4 py-3 border-b border-amber-100 flex items-center justify-between">
           <div>
             <div className="font-extrabold text-gray-900">Payment</div>
@@ -151,7 +151,7 @@ export default function PaymentModal({ open, onClose }) {
           </button>
         </div>
 
-        <div className="p-4 grid md:grid-cols-2 gap-4">
+        <div className="p-4 grid md:grid-cols-2 gap-4 overflow-y-auto">
           <div className="rounded-2xl border border-amber-100 bg-amber-50/40 p-4">
             <div className="text-sm font-bold text-gray-900">Customer Details</div>
             <div className="mt-3 grid gap-3">

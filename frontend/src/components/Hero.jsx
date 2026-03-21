@@ -13,7 +13,7 @@ export default function Hero() {
           alt="Traditional South Indian food served at Anjali Thaivazhi Unavagam"
           loading="eager"
           decoding="async"
-          fetchpriority="high"
+          fetchPriority="high"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-red-950/80 via-red-950/55 to-amber-900/30" />
